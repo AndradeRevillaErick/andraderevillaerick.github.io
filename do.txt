@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+   <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="./css/normalize.css">
+      <link rel="stylesheet" href="./css/main.css">
+      <link  rel="icon" href="./imagenes/cuervo.ico" type="image/ico">
+      <title>Inicio</title>
+   </head>
+   <body>
+     <div class="contenedor">
+      <div class="cabecera"> 
+        <h1>Edgar Allan Poe</h1>
+      </div>
+      <div class="logo"></div>
+      <div class="menu">
+          <ul class="nav">
+            <li><a href="/html/biografia/"><span>Biografia</span></a></li>
+            <li><a href="/html/glosario/"><span>Glosario</span></a></li>
+            <li><a href="#"><span>Cuentos</span></a>
+              <ul>
+                <li><a href="/html/retrato/"><span>El retrato oval</span></a></li>
+                <li><a href="/html/corazon/"><span>El corazon delator</span></a></li>
+                <li><a href="/html/descenso/"><span>Un descenso a Maelström</span></a></li>
+                <li><a href="/html/tonel/"><span>El tonel de amontillado</span></a></li>
+                <li><a href="/html/mascara/"><span>La máscara de la Muerte Roja</span></a></li>
+              </ul>
+            </li>
+          </ul>
+      </div>
+      <div class="contenidox"></div>
+      <div class="pie_pagina"></div>
+    </div>
+   </body>
+ </html>  
