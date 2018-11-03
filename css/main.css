@@ -29,23 +29,15 @@ body
 /*--------AJUSTES BARRA NAVEGACION-------------*/
 .menu
 {
-    /*padding: 0px;*/
-    /*margin: auto;*/
-    /*margin-bottom: 100px;*/
     width: 550px;
-    /*width: fit-content;*/
     padding: auto;
     position: absolute;
     top: 212px; left: 175px;
     z-index: 100;
-    /*position: fixed;
-    top: 0;
-    z-index: 50;*/
 }
 
 ul, ol
 {
-    /*align-content: center;*/
     list-style: none;
     padding: 0px;
     margin: 0px;
@@ -83,7 +75,7 @@ ul, ol
 {
     display: block;
 }
-
+ 
 .imagenes
 {
     float: left;
@@ -96,6 +88,20 @@ ul, ol
     text-align: justify;
     float: left;
     margin: 0px 0px 0px 150px;
+}
+
+.glosario li
+{
+    padding: 4px;
+}
+.glosario 
+{
+    font-style: italic;
+}
+
+.concepto
+{
+    font-weight: bold;
 }
 
 .video
